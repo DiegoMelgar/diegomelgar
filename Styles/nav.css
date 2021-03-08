@@ -1,0 +1,19 @@
+#nav {
+	background-color: transparent;
+}
+
+#title-nav {
+	font-family: "lobster", cursive;
+	font-weight: 1;
+	font-size: 1.9rem;
+	color: #eeee;
+}
+
+.btn-nav .btn-section {
+	font-family: "lobster", cursive, "Segoe UI", Tahoma, Geneva, Verdana,
+		sans-serif;
+
+	font-size: 1.5rem;
+	color: #eeee;
+	text-decoration: none;
+}

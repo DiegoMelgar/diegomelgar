@@ -1,0 +1,83 @@
+.container-visual {
+  height: 100vh;
+}
+
+.tag {
+  background-color: #324f73;
+  max-width: 20%;
+  margin: 0;
+  padding: 3%;
+}
+
+.tag h2 {
+  font-family: lobster;
+  text-shadow: 3px -3px 3px rgba(170, 170, 170, 0.5), 3px -3px 3px rgba(170, 170, 170, 0.5),
+    3px -3px 3px rgba(170, 170, 170, 0.5), 3px -3px 3px rgba(170, 170, 170, 0.5),
+    3px 3px 3px rgba(170, 170, 170, 0.5), 3px 3px 3px rgba(170, 170, 170, 0.5);
+}
+
+.container-content {
+  /* height: 75vh; */
+}
+
+.container-visual-blue {
+  background-color: #111b27;
+}
+
+/* -------------- Interes ------------- */
+#interes {
+  display: flex;
+  justify-content: flex-end;
+  justify-items: end;
+}
+
+#interes-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../Img/parque.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.items-list-interes {
+  font-size: 1.6rem;
+}
+
+.text-background {
+  display: flex;
+  justify-content: flex-end;
+  justify-items: end;
+}
+
+/* -------------- Contacto ------------- */
+#contacto {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../Img/antiguaGuate.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-label{
+	font-family: 'lobster','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 2rem;
+	opacity: .5;
+}
+
+.text-title{
+	font-family: 'lobster','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 6rem;
+	opacity: .5;
+}
+
+.form-control{
+	opacity: .5;
+}
+
+/* -------------- Footer ------------- */
+footer{
+	background-color: #111B27;
+}
+
+footer p,a{ 
+	opacity: .8;
+}
